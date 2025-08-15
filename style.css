@@ -1,0 +1,137 @@
+@font-face {
+    font-family: myFont;
+    src: url(gilroy.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myFont;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#nav-part1 {
+    display: flex;
+    justify-content: space-between; 
+    gap: 9px;
+    padding: 30px;
+}
+
+#nav h3, #nav i {
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 3px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#nav h1 {
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#nav button {
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    background-color: orangered;
+    color: white; 
+}
+#con{
+    font-size: 200px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+   text-align: center;
+}
+img{
+    height: 430px;
+    width: 370px;
+    object-fit: cover;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#btm-left{
+    position:absolute;
+    bottom:5%;
+    left:5%;
+    font-size: 17px;
+}
+#btm-right{
+    position:absolute;
+    bottom:5%;
+    right:5%;
+    font-size: 17px;
+}
+#icons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    padding: 2px;
+}
+#ic{
+    top:5%;
+    height:80px;
+    width:80px;
+    object-fit: cover;
+    gap:5px;
+}
+#nav-part2 h1 {
+    display: flex;
+    align-items: center;
+     
+}
+#ic {
+    object-fit: cover;
+    height: 50px;  
+    width: 50px;
+    object-fit: cover;
+    position: static; 
+}
+#btm-cen{
+    font-size: 100px;
+    position:absolute;
+    top:800px;
+    right: 50%;
+
+}
+
+ 
