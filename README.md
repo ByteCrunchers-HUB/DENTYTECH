@@ -1,6 +1,6 @@
-DEntytech Landing Page
+Dentytech Landing Page
 
-A simple and clean HTML & CSS landing page with a modern navigation bar, brand logo, and icon placement. This project focuses on pixel-perfect alignment, color customization, and a responsive layout.
+A simple and clean HTML & CSS landing page with a modern navigation bar, brand logo, and icon placement. Designed for pixel-perfect alignment, custom color styling, and responsive layouts that look great on all devices.
 
 🚀 Features
 
@@ -12,7 +12,7 @@ Clean Layout & Minimal Design
 
 Pixel-perfect Icon Alignment next to brand name
 
-Easy to Customize for personal or commercial use
+Easily Customizable for personal or commercial use
 
 🛠️ Technologies Used
 
